@@ -7,3 +7,7 @@ Imgui Node/.vs/ImGuiNodeEditor/v14/.suo
 *.log
 *.lastbuildstate
 *.log
+Imgui Node/.vs/ImGuiNodeEditor/v15/.suo
+*.db-shm
+*.db-wal
+*.opendb
