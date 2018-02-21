@@ -56,7 +56,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Visual Studio\Imgui Node\Bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">\Bin\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">01-Blueprints.dir\Debug\</IntDir>
     <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Visual Studio/Imgui Node/Bin</LocalDebuggerWorkingDirectory>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">01-Blueprints_d</TargetName>
@@ -87,7 +87,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Visual Studio\imgui-node-editor-master\ThirdParty\ImGui;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Include;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Application\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\imgui-node-editor-master\ThirdParty\ImGui;..\..\imgui-node-editor-master\NodeEditor\Include;..\..\imgui-node-editor-master\Examples\Common\Shared\Include;..\..\imgui-node-editor-master\NodeEditor\Source\Shared;..\..\imgui-node-editor-master\Examples\Common\Application\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -99,10 +99,10 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <WarningLevel>Level4</WarningLevel>
+      <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <TreatWarningAsError>true</TreatWarningAsError>
+      <TreatWarningAsError>false</TreatWarningAsError>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -120,7 +120,7 @@
       <Message>
       </Message>
       <Command>setlocal
-"D:\Program Files (x86)\Cmake\bin\cmake.exe" -E make_directory "D:/Visual Studio/Imgui Node/Bin"
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -E make_directory "/Bin"
 if %errorlevel% neq 0 goto :cmEnd
 "D:\Program Files (x86)\Cmake\bin\cmake.exe" -E copy_directory "D:/Visual Studio/imgui-node-editor-master/Data" "D:/Visual Studio/Imgui Node/Bin/Data"
 if %errorlevel% neq 0 goto :cmEnd

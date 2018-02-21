@@ -164,10 +164,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{9346C66A-0308-38FF-AEC1-AB020B7ECB00}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Visual Studio\Imgui Node\Examples\00-Simple\00-Simple.vcxproj">
-      <Project>{FAB24B52-AD0B-3F2F-AEB8-87668B251E46}</Project>
-      <Name>00-Simple</Name>
-    </ProjectReference>
     <ProjectReference Include="D:\Visual Studio\Imgui Node\Examples\01-Blueprints\01-Blueprints.vcxproj">
       <Project>{4EB45C13-C46F-3FF0-A974-6CA60E78F089}</Project>
       <Name>01-Blueprints</Name>

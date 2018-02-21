@@ -11,3 +11,7 @@ Imgui Node/.vs/ImGuiNodeEditor/v15/.suo
 *.db-shm
 *.db-wal
 *.opendb
+Imgui Node/Examples/00-Simple/00-Simple.dir/Debug/vc140.pdb
+*.obj
+Imgui Node/Examples/01-Blueprints/01-Blueprints.vcxproj.user
+*.log
