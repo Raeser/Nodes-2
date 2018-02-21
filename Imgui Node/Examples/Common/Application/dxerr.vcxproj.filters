@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Visual Studio\imgui-node-editor-master\ThirdParty\DXSDK\src\dxerr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Visual Studio\imgui-node-editor-master\Examples\Common\Application\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0597D607-57BC-3C21-B788-D21E6A95B5DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿  Checking Build System
+  CMake is re-running because D:/Visual Studio/Imgui Node/CMakeFiles/generate.stamp is out-of-date.
+    the file 'D:/Program Files (x86)/Cmake/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake'
+    is newer than 'D:/Visual Studio/Imgui Node/CMakeFiles/generate.stamp.depend'
+    result='0'
+  -- The C compiler identification is MSVC 19.12.25835.0
+  -- The CXX compiler identification is MSVC 19.12.25835.0
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/bin/Hostx86/x86/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/bin/Hostx86/x86/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/bin/Hostx86/x86/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/bin/Hostx86/x86/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Visual Studio/Imgui Node

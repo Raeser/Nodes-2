@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4EB45C13-C46F-3FF0-A974-6CA60E78F089}</ProjectGuid>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>01-Blueprints</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Visual Studio\Imgui Node\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">01-Blueprints.dir\Debug\</IntDir>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Visual Studio/Imgui Node/Bin</LocalDebuggerWorkingDirectory>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">01-Blueprints_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Visual Studio\Imgui Node\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">01-Blueprints.dir\Release\</IntDir>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Visual Studio/Imgui Node/Bin</LocalDebuggerWorkingDirectory>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">01-Blueprints</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Visual Studio\Imgui Node\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">01-Blueprints.dir\MinSizeRel\</IntDir>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Visual Studio/Imgui Node/Bin</LocalDebuggerWorkingDirectory>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">01-Blueprints_r</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Visual Studio\Imgui Node\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">01-Blueprints.dir\RelWithDebInfo\</IntDir>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Visual Studio/Imgui Node/Bin</LocalDebuggerWorkingDirectory>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">01-Blueprints</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Visual Studio\imgui-node-editor-master\ThirdParty\ImGui;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Include;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Application\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Visual Studio\imgui-node-editor-master\ThirdParty\ImGui;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Include;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Application\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Visual Studio\imgui-node-editor-master\ThirdParty\ImGui;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Include;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Application\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -E make_directory "D:/Visual Studio/Imgui Node/Bin"
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -E copy_directory "D:/Visual Studio/imgui-node-editor-master/Data" "D:/Visual Studio/Imgui Node/Bin/Data"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\ThirdParty\ImGui\Debug\ImGui.lib;..\..\NodeEditor\Debug\NodeEditor.lib;..\Common\Shared\Debug\Shared.lib;..\Common\Application\Debug\Application.lib;..\Common\Shared\Debug\Shared.lib;..\..\NodeEditor\Debug\NodeEditor.lib;..\..\ThirdParty\ImGui\Debug\ImGui.lib;d3d11.lib;d3dcompiler.lib;D:\Visual Studio\imgui-node-editor-master\ThirdParty\DXSDK\lib\x86\d3dx11d.lib;..\Common\Application\Debug\dxerr.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Visual Studio/Imgui Node/Examples/01-Blueprints/Debug/01-Blueprints_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Visual Studio/Imgui Node/Bin/01-Blueprints_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Visual Studio\imgui-node-editor-master\ThirdParty\ImGui;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Include;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Application\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Visual Studio\imgui-node-editor-master\ThirdParty\ImGui;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Include;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Application\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Visual Studio\imgui-node-editor-master\ThirdParty\ImGui;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Include;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Application\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -E make_directory "D:/Visual Studio/Imgui Node/Bin"
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -E copy_directory "D:/Visual Studio/imgui-node-editor-master/Data" "D:/Visual Studio/Imgui Node/Bin/Data"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\ThirdParty\ImGui\Release\ImGui.lib;..\..\NodeEditor\Release\NodeEditor.lib;..\Common\Shared\Release\Shared.lib;..\Common\Application\Release\Application.lib;..\Common\Shared\Release\Shared.lib;..\..\NodeEditor\Release\NodeEditor.lib;..\..\ThirdParty\ImGui\Release\ImGui.lib;d3d11.lib;d3dcompiler.lib;D:\Visual Studio\imgui-node-editor-master\ThirdParty\DXSDK\lib\x86\d3dx11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Visual Studio/Imgui Node/Examples/01-Blueprints/Release/01-Blueprints.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Visual Studio/Imgui Node/Bin/01-Blueprints.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Visual Studio\imgui-node-editor-master\ThirdParty\ImGui;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Include;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Application\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Visual Studio\imgui-node-editor-master\ThirdParty\ImGui;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Include;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Application\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Visual Studio\imgui-node-editor-master\ThirdParty\ImGui;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Include;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Application\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -E make_directory "D:/Visual Studio/Imgui Node/Bin"
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -E copy_directory "D:/Visual Studio/imgui-node-editor-master/Data" "D:/Visual Studio/Imgui Node/Bin/Data"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\ThirdParty\ImGui\MinSizeRel\ImGui.lib;..\..\NodeEditor\MinSizeRel\NodeEditor.lib;..\Common\Shared\MinSizeRel\Shared.lib;..\Common\Application\MinSizeRel\Application.lib;..\Common\Shared\MinSizeRel\Shared.lib;..\..\NodeEditor\MinSizeRel\NodeEditor.lib;..\..\ThirdParty\ImGui\MinSizeRel\ImGui.lib;d3d11.lib;d3dcompiler.lib;D:\Visual Studio\imgui-node-editor-master\ThirdParty\DXSDK\lib\x86\d3dx11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Visual Studio/Imgui Node/Examples/01-Blueprints/MinSizeRel/01-Blueprints_r.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Visual Studio/Imgui Node/Bin/01-Blueprints_r.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Visual Studio\imgui-node-editor-master\ThirdParty\ImGui;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Include;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Application\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Visual Studio\imgui-node-editor-master\ThirdParty\ImGui;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Include;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Application\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Visual Studio\imgui-node-editor-master\ThirdParty\ImGui;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Include;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include;D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared;D:\Visual Studio\imgui-node-editor-master\Examples\Common\Application\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -E make_directory "D:/Visual Studio/Imgui Node/Bin"
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -E copy_directory "D:/Visual Studio/imgui-node-editor-master/Data" "D:/Visual Studio/Imgui Node/Bin/Data"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\ThirdParty\ImGui\RelWithDebInfo\ImGui.lib;..\..\NodeEditor\RelWithDebInfo\NodeEditor.lib;..\Common\Shared\RelWithDebInfo\Shared.lib;..\Common\Application\RelWithDebInfo\Application.lib;..\Common\Shared\RelWithDebInfo\Shared.lib;..\..\NodeEditor\RelWithDebInfo\NodeEditor.lib;..\..\ThirdParty\ImGui\RelWithDebInfo\ImGui.lib;d3d11.lib;d3dcompiler.lib;D:\Visual Studio\imgui-node-editor-master\ThirdParty\DXSDK\lib\x86\d3dx11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Visual Studio/Imgui Node/Examples/01-Blueprints/RelWithDebInfo/01-Blueprints.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Visual Studio/Imgui Node/Bin/01-Blueprints.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Visual Studio\imgui-node-editor-master\Examples\01-Blueprints\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Visual Studio/imgui-node-editor-master/Examples/01-Blueprints/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" "-HD:/Visual Studio/imgui-node-editor-master" "-BD:/Visual Studio/Imgui Node" --check-stamp-file "D:/Visual Studio/Imgui Node/Examples/01-Blueprints/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Visual Studio/imgui-node-editor-master/Examples/01-Blueprints/CMakeLists.txt;D:\Visual Studio\imgui-node-editor-master\Examples\01-Blueprints\CMakeLists.txt;D:\Visual Studio\imgui-node-editor-master\Examples\01-Blueprints\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Visual Studio\Imgui Node\Examples\01-Blueprints\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Visual Studio/imgui-node-editor-master/Examples/01-Blueprints/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" "-HD:/Visual Studio/imgui-node-editor-master" "-BD:/Visual Studio/Imgui Node" --check-stamp-file "D:/Visual Studio/Imgui Node/Examples/01-Blueprints/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Visual Studio/imgui-node-editor-master/Examples/01-Blueprints/CMakeLists.txt;D:\Visual Studio\imgui-node-editor-master\Examples\01-Blueprints\CMakeLists.txt;D:\Visual Studio\imgui-node-editor-master\Examples\01-Blueprints\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Visual Studio\Imgui Node\Examples\01-Blueprints\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Visual Studio/imgui-node-editor-master/Examples/01-Blueprints/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" "-HD:/Visual Studio/imgui-node-editor-master" "-BD:/Visual Studio/Imgui Node" --check-stamp-file "D:/Visual Studio/Imgui Node/Examples/01-Blueprints/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Visual Studio/imgui-node-editor-master/Examples/01-Blueprints/CMakeLists.txt;D:\Visual Studio\imgui-node-editor-master\Examples\01-Blueprints\CMakeLists.txt;D:\Visual Studio\imgui-node-editor-master\Examples\01-Blueprints\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Visual Studio\Imgui Node\Examples\01-Blueprints\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Visual Studio/imgui-node-editor-master/Examples/01-Blueprints/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" "-HD:/Visual Studio/imgui-node-editor-master" "-BD:/Visual Studio/Imgui Node" --check-stamp-file "D:/Visual Studio/Imgui Node/Examples/01-Blueprints/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Visual Studio/imgui-node-editor-master/Examples/01-Blueprints/CMakeLists.txt;D:\Visual Studio\imgui-node-editor-master\Examples\01-Blueprints\CMakeLists.txt;D:\Visual Studio\imgui-node-editor-master\Examples\01-Blueprints\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Visual Studio\Imgui Node\Examples\01-Blueprints\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CFileReader.cpp" />
+    <ClCompile Include="D:\Visual Studio\imgui-node-editor-master\Examples\01-Blueprints\Blueprints.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Visual Studio\Imgui Node\ZERO_CHECK.vcxproj">
+      <Project>{9346C66A-0308-38FF-AEC1-AB020B7ECB00}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Visual Studio\Imgui Node\Examples\Common\Application\Application.vcxproj">
+      <Project>{7A946267-D046-397E-9E44-2DF285F27947}</Project>
+      <Name>Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Visual Studio\Imgui Node\ThirdParty\ImGui\ImGui.vcxproj">
+      <Project>{343B782A-6FFE-35DD-A28D-8C454D0A305C}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Visual Studio\Imgui Node\NodeEditor\NodeEditor.vcxproj">
+      <Project>{56412634-E0EC-3B29-85FC-2A1A7CB9F781}</Project>
+      <Name>NodeEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Visual Studio\Imgui Node\Examples\Common\Shared\Shared.vcxproj">
+      <Project>{BB6F8079-5B25-38DD-9611-1CAD229075AF}</Project>
+      <Name>Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Visual Studio\Imgui Node\Examples\Common\Application\dxerr.vcxproj">
+      <Project>{164B163D-2619-312A-A0FD-1154DD961BB0}</Project>
+      <Name>dxerr</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CFileReader.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

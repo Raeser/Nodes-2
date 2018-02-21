@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Source\Builders.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Source\Drawing.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Source\Widgets.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include\Builders.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include\Drawing.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include\Widgets.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\Include\ScopeGuard.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared\Interop.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared\Math2D.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared\Math2D.inl">
+      <Filter>Shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Visual Studio\imgui-node-editor-master\Examples\Common\Shared\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{BFCF4A28-35BF-3B80-B2DD-C892AF67B9D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9C75F749-56B2-371D-A572-39FF80B0E401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{F31AECE1-604D-3F84-B916-F861F06158E8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

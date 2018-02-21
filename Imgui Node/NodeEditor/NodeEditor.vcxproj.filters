@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\NodeEditor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Editor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Visual Studio\imgui-node-editor-master\NodeEditor\Include\NodeEditor.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Editor.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared\Interop.h">
+      <Filter>Source\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared\Math2D.h">
+      <Filter>Source\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Visual Studio\imgui-node-editor-master\NodeEditor\Source\Shared\Math2D.inl">
+      <Filter>Source\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Visual Studio\imgui-node-editor-master\ThirdParty\picojson\picojson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Visual Studio\imgui-node-editor-master\NodeEditor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Shared">
+      <UniqueIdentifier>{FAC9B2CD-62E7-368F-8327-5C0DF5283CD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF4E73CE-B3CA-3197-9A0D-3F6F5FD2A394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{BFCF4A28-35BF-3B80-B2DD-C892AF67B9D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9C75F749-56B2-371D-A572-39FF80B0E401}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
